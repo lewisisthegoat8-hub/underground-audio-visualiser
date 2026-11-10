@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "underground-audio-visualizer",
+  "version": "${version}",
+  "name": "Underground Audio Visualizer",
+  "description": "Shows where sounds come from with fading boxes and tracers. Press Delete to open the settings GUI.",
+  "authors": [ "You" ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [ "com.undergroundaudio.UndergroundAudioVisualizer" ]
+  },
+  "mixins": [ "underground-audio-visualizer.mixins.json" ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
